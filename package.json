@@ -1,0 +1,15 @@
+{
+  "name": "prefix-practice",
+  "version": "1.0.0",
+  "description": "just a practice using autoprefixer",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pat Cooney",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0"
+  }
+}
