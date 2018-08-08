@@ -9,7 +9,7 @@
   "author": "Pat Cooney",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^5.0.0"
   },
   "dependencies": {
