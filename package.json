@@ -10,9 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-autoprefixer": "^5.0.0"
-  },
-  "dependencies": {
+    "gulp-autoprefixer": "^5.0.0",
     "lodash": "^4.17.10"
-  }
+  },
+  "dependencies": {}
 }
