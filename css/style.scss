@@ -1,0 +1,110 @@
+@import 'base';
+/* responsive imported at bottom */
+
+$nav-blue: #09377c;
+
+/*NAV CSS*/
+
+.nav {
+  font-family: 'Panama-Bold';
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: $nav-blue;
+
+    .nav__section {
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 3;
+
+    .nav__item {
+      display: -ms-flexbox;
+      display: flex;
+          // flex:1;
+      .nav__link--logo{
+        margin:0 auto;
+        width:100%;
+        .svg-wrapper{
+          height:42px;
+          width: 262px;
+          svg{
+            width:100%;
+            height:100%;
+            .st0{fill:url(#SVGID_1_);}
+            .st1{fill:#FFFFFF;}
+            .st2{fill:#005A9C;}
+            .st3{fill:url(#SVGID_2_);}
+            .st4{fill:#7690B7;}
+            .st5{fill:$nav-blue;}
+          }
+        }
+      }
+    }
+    .nav__item:last-child .nav__link {
+      background: #0d77bb;
+    }
+    }
+}
+
+
+
+
+
+
+
+// svg:hover .st5,
+// .nav__link--logo:hover .st5{fill:none;}
+
+.nav .nav__section .nav__item .nav__link--logo:hover .svg-wrapper svg .st5{fill:none;}
+
+.nav__items--collapse{
+  display:flex;
+  flex:auto;
+
+}
+.nav__link {
+  width: 100%;
+  text-align: center;
+  background: $nav-blue;
+  color: white;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+  padding: 1.2rem 2rem 1rem 2rem;
+  display: block;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  border-bottom: 5px solid transparent;
+}
+.nav__link:hover, .nav__link--active {
+  color: black;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-right-color: rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+@keyframes brandsScrollHorizontal{
+	0%{
+	    background-position:100% 0;
+	  }
+	10%{
+	    background-position:100vw 0;
+}
+100%{
+    background-position:100vw 0;
+  }}
+
+
+@import 'responsive';
