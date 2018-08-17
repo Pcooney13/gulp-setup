@@ -1,12 +1,13 @@
+$nav-blue: #09377c;
+
 @import 'base';
 /* responsive imported at bottom */
 
-$nav-blue: #09377c;
 
 /*NAV CSS*/
 
 .nav {
-  font-family: 'Panama-Bold';
+  font-family: 'Panama-Bold'; 
   list-style: none;
   margin: 0;
   padding: 0;
